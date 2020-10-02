@@ -3847,7 +3847,7 @@ p {
   -ms-grid-row-align: auto;
   align-self: auto;
   background-color: #000;
-  background-image: url('../images/BackgroundGirlNew22.webp');
+  background-image: url('../images/BackgroundGirlNew22_1.webp');
   background-position: 50% 55%;
   background-size: auto 170%;
   background-repeat: no-repeat;
@@ -19455,6 +19455,7 @@ p {
   }
   .div-block-84 {
     top: 0px;
+    width: 1000%;
     height: 100%;
   }
   .div-block-84.dont {
@@ -19470,6 +19471,7 @@ p {
     padding-left: 20px;
   }
   .background {
+    width: 100%;
     margin-top: -15px;
   }
   .badgestext {
@@ -21661,6 +21663,9 @@ p {
     height: 80px;
     margin-top: 0px;
   }
+  .div-block-84 {
+    width: 1000%;
+  }
   .div-block-84.dont {
     padding-right: 20px;
     padding-left: 20px;
@@ -21673,6 +21678,9 @@ p {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+  .background {
+    width: 100%;
   }
   .textbadges {
     height: 100px;
@@ -22771,7 +22779,8 @@ p {
     flex-direction: column;
   }
   .cards-grid-container {
-    width: auto;
+    width: 320px;
+    min-width: 320px;
     margin-right: 0px;
     margin-left: 0px;
     padding: 20px;
@@ -23156,6 +23165,12 @@ p {
     flex: 0 0 auto;
     font-family: 'Open Sans', sans-serif;
     white-space: normal;
+  }
+  .section {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
   }
   .section.blackspacerex {
     display: -webkit-box;
@@ -25351,6 +25366,11 @@ p {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    min-width: 320px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0px;
+    padding-left: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -25364,8 +25384,14 @@ p {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
   }
   .centered-container-4 {
+    max-width: none;
+    margin-right: auto;
+    margin-left: auto;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -25379,6 +25405,10 @@ p {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
     text-align: left;
   }
   .parraphcards {
@@ -25479,7 +25509,7 @@ p {
     display: none;
   }
   .background {
-    width: auto;
+    width: 100%;
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
