@@ -13930,7 +13930,7 @@ p {
   }
   .section-6 {
     height: 100vh;
-    background-image: url('../images/BackgroundMaster.jpg');
+    background-image: url('../images/BackgroundMaster.webp');
     background-position: 50% 50%;
     background-size: auto 174%;
     background-repeat: no-repeat;
@@ -13939,7 +13939,7 @@ p {
     height: 100vh;
     max-height: 1080px;
     border: 1px none #000;
-    background-image: url('../images/ExplorerBackgroundNew.jpg');
+    background-image: url('../images/ExplorerBackgroundNew.webp');
     background-position: 50% 57%;
     background-size: auto 174%;
   }
