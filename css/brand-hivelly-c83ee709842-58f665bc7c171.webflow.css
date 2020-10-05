@@ -26868,13 +26868,7 @@ p {
   font-style: normal;
   font-display: auto;
 }
-@font-face {
-  font-family: 'Bebas';
-  src: url('../fonts/BebasKai.ttf') format('truetype'), url('../fonts/Bebas-Regular.ttf') format('truetype'), url('../fonts/BebasNeue-Regular.ttf') format('truetype'), url('../fonts/BebasNeue-Regular.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: auto;
-}
+
 @font-face {
   font-family: 'Bebas';
   src: url('../fonts/BebasKai.otf') format('opentype');
